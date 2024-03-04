@@ -20,7 +20,7 @@ const App = () => {
   })
 
   if (isLoading) {
-    return <div>loading data...</div>
+    return <div>loading data</div>
   }
   if (isError) {
     console.log(error)
